@@ -1,0 +1,244 @@
+:root {
+    scroll-behavior: auto;
+}
+
+
+
+.box {  
+    display: flex;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    align-items: start;
+    align-items: center;
+}
+
+
+.asid-bar {
+    background-color: #CCCCCC;
+    width: 100%;
+    height: 100vh;
+    background-color: #111111;
+    display: none;
+}
+
+
+.x-icon {
+    display: flex;
+    justify-content: right;
+    color: white;
+}
+
+.x-btn {
+    background-color: transparent;
+    border: none;
+}
+
+
+.x-icon i:hover {
+    color: red;
+}
+
+.asid-bar a {
+
+    display: block;
+    padding: 40px 0px 0px 0px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.asid-bar a:hover {
+    color: red;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.icon i    {
+    font-size: 25px;
+    color: #E68285;
+    font-size: 40px;
+    margin: 15px 5px;
+}
+
+
+
+.icon span {
+    font-size: 40px;
+    padding: 0%;
+    margin: 0%;
+    color: #E68285;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start home  */
+#home {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.61), rgba(255, 0, 0, 0.5)), url('../photos/images.jpg');
+    width: 100%;
+    height: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+#home h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+
+#home span {
+    font-size: 19px;
+} 
+
+/* end home  */
+
+
+/* start bar  */ 
+
+
+
+
+
+/* end bar  */
+
+/* start Duration */
+
+
+#Duration h3 {
+    color: white;
+    padding-block: 10px;
+    cursor: pointer;
+    }
+    
+    #Duration p {
+    background-color: #CCCCCC;
+    display: none;
+    }
+
+
+
+
+/* End Duration */
+
+
+/* start Details  */
+#Details {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.61), rgba(255, 0, 0, 0.5)), url('../photos/young-people-dancing-night-club-260nw-351380480.webp');
+    width: 100%;
+    height: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.card1 , .card2 , .card3 ,.card4 {
+    background-color: #E68285;
+    }
+    
+    #Details #counter {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .count1 , .count2 , .count3 ,.count4 {
+        border: 1px solid white;
+        padding: 50px  100px ;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+
+/* end Details  */
+
+
+/* start contact  */
+
+
+
+#Contact {
+    margin-top: 100px;
+}
+
+
+#Contact p {
+    text-align: center;
+    color: #CCCCCC;
+}
+
+.contact-info i  {
+ margin: 20px 20px 20px 0px;
+ color: #777777;
+
+}
+
+#Contact  .contact-info  a {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+.contact-info .contact-icons i {
+    border: 1px solid #CCCCCC ;
+    padding: 5px;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+
+ .contact-icons i:hover {
+    background-color: red;
+    color: white;
+}
+
+
+
+.contact-form span {
+color: #D62E33;
+}
+
+.c-btn {
+    width: 200px;
+    height: 60px;
+    margin-bottom: 80px;
+    border-radius: 100vh 100vh;
+}
+
+
+
+
+
+/* end  contact  */
+
+
+
+
+
